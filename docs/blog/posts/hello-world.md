@@ -13,5 +13,8 @@ This is a blog.
 
 I was able to get this available in github-pages.
 
-`mkdocs gh-deploy`
+```
+mkdocs build
+mkdocs gh-deploy
+```
 

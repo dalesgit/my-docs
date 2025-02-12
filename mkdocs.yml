@@ -1,0 +1,15 @@
+site_name: My Docs
+  # Managing your own navigation structure with the table of contents (toc) extension
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+plugins:
+  - blog:
+     enabled: true
+# Add repository metadate for more integration and ease-of-use
+repo_name: Github
+repo_url: https://github.com/martinlingstuyl/blimped-mkdocs/
+edit_uri: 'docs/'   
+

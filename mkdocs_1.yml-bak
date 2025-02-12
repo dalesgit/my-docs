@@ -1,0 +1,13 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - Guides:
+        - Guides/getting-started.md    
+        - Guides/setup.md
+        - Guides/about.md
+    - subfolder:
+markdown_extensions:  
+    - toc:                 
+        permalink: true
+theme: 
+    name: readthedocs 
